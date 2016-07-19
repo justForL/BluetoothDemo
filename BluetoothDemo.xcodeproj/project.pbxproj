@@ -15,7 +15,7 @@
 		181C08691D3D01CE00FC3C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C08671D3D01CE00FC3C20 /* LaunchScreen.storyboard */; };
 		181C08741D3D01CE00FC3C20 /* BluetoothDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C08731D3D01CE00FC3C20 /* BluetoothDemoTests.m */; };
 		181C087F1D3D01CF00FC3C20 /* BluetoothDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C087E1D3D01CF00FC3C20 /* BluetoothDemoUITests.m */; };
-		181C088E1D3D1C1F00FC3C20 /* PeripheralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C088D1D3D1C1F00FC3C20 /* PeripheralModel.m */; };
+		18784F7A1D3E38800015C6B2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18784F791D3E38800015C6B2 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		181C087A1D3D01CF00FC3C20 /* BluetoothDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C087E1D3D01CF00FC3C20 /* BluetoothDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothDemoUITests.m; sourceTree = "<group>"; };
 		181C08801D3D01CF00FC3C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		181C088C1D3D1C1F00FC3C20 /* PeripheralModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralModel.h; sourceTree = "<group>"; };
-		181C088D1D3D1C1F00FC3C20 /* PeripheralModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralModel.m; sourceTree = "<group>"; };
+		18784F781D3E38800015C6B2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		18784F791D3E38800015C6B2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				181C085D1D3D01CE00FC3C20 /* AppDelegate.m */,
 				181C085F1D3D01CE00FC3C20 /* ViewController.h */,
 				181C08601D3D01CE00FC3C20 /* ViewController.m */,
-				181C088C1D3D1C1F00FC3C20 /* PeripheralModel.h */,
-				181C088D1D3D1C1F00FC3C20 /* PeripheralModel.m */,
+				18784F781D3E38800015C6B2 /* DetailViewController.h */,
+				18784F791D3E38800015C6B2 /* DetailViewController.m */,
 				181C08621D3D01CE00FC3C20 /* Main.storyboard */,
 				181C08651D3D01CE00FC3C20 /* Assets.xcassets */,
 				181C08671D3D01CE00FC3C20 /* LaunchScreen.storyboard */,
@@ -278,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18784F7A1D3E38800015C6B2 /* DetailViewController.m in Sources */,
 				181C08611D3D01CE00FC3C20 /* ViewController.m in Sources */,
-				181C088E1D3D1C1F00FC3C20 /* PeripheralModel.m in Sources */,
 				181C085E1D3D01CE00FC3C20 /* AppDelegate.m in Sources */,
 				181C085B1D3D01CE00FC3C20 /* main.m in Sources */,
 			);
@@ -511,6 +511,7 @@
 				181C08851D3D01CF00FC3C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181C08861D3D01CF00FC3C20 /* Build configuration list for PBXNativeTarget "BluetoothDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +520,7 @@
 				181C08881D3D01CF00FC3C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181C08891D3D01CF00FC3C20 /* Build configuration list for PBXNativeTarget "BluetoothDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				181C088B1D3D01CF00FC3C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
